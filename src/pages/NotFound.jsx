@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 function NotFound() {
   return (
-    <div style={{ padding: '2rem' }}>
+    <div>
       <Navbar />
       <Header />
       <h1>Not Found Page</h1>
