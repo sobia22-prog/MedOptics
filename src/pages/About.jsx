@@ -1,15 +1,17 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
+import AboutHeader from '../components/AboutHeader';
+import WhoWeAre from '../components/WhoWeAre';
+import MeetCEO from '../components/MeetCEO';
 
 function About() {
   return (
-    <div style={{ padding: '2rem' }}>
+    <div>
       <Navbar />
-      <Header />
-      <h1>About Page</h1>
-      <p>This is the About Page. We're building this site step by step using React!</p>
+      <AboutHeader />
+      <WhoWeAre />
+      <MeetCEO />
       <Footer />
     </div>
   );

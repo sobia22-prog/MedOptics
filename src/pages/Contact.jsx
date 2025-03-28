@@ -1,15 +1,15 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
+import ContactUs from '../components/Contact';
+import ContactForm from '../components/ContactForm';
 
 function Contact() {
   return (
-    <div style={{ padding: '2rem' }}>
+    <div>
       <Navbar />
-      <Header />
-      <h1>Contact Page</h1>
-      <p>This is the Contact Page. We're building this site step by step using React!</p>
+      <ContactUs />
+      <ContactForm />
       <Footer />
     </div>
   );

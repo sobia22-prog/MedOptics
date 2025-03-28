@@ -1,15 +1,21 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Header from '../components/Header';
+import Hero from '../components/Hero';
 import Footer from '../components/Footer';
+import Mission from '../components/Mission';
+import Vision from '../components/Vision';
+import ProductShowcase from '../components/ProductShowcase';
+import Distributor from '../components/Distributions';
 
 function Home() {
   return (
-    <div style={{ padding: '2rem' }}>
+    <div>
       <Navbar />
-      <Header />
-      <h1>Welcome to MedOptics</h1>
-      <p>This is the Home Page. We're building this site step by step using React!</p>
+      <Hero />
+      <Mission />
+      <Vision />
+      <ProductShowcase showMore={true} />
+      <Distributor />
       <Footer />
     </div>
   );

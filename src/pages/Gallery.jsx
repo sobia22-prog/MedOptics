@@ -1,15 +1,14 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Header from '../components/Header';
+import Header from '../components/AboutHeader';
 import Footer from '../components/Footer';
+import GalleryComponent from '../components/Gallery';
 
 function Gallery() {
   return (
-    <div style={{ padding: '2rem' }}>
+    <div>
       <Navbar />
-      <Header />
-      <h1>Gallery Page</h1>
-      <p>This is the Gallery Page. We're building this site step by step using React!</p>
+      <GalleryComponent />
       <Footer />
     </div>
   );

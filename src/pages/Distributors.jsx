@@ -1,15 +1,14 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Header from '../components/Header';
+import Header from '../components/AboutHeader';
 import Footer from '../components/Footer';
+import Distributor from '../components/Distributions';
 
 function Distributors() {
   return (
-    <div style={{ padding: '2rem' }}>
+    <div>
       <Navbar />
-      <Header />
-      <h1>Distributors Page</h1>
-      <p>This is the Distributions Page. We're building this site step by step using React!</p>
+      <Distributor />
       <Footer />
     </div>
   );
